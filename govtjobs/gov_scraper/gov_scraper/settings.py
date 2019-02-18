@@ -71,7 +71,7 @@ ITEM_PIPELINES = {
 #     'scrapy.pipelines.files.FilesPipeline': 1,
                   'gov_scraper.pipelines.MyImagesPipeline': 2,
                  }
-FILES_STORE = '/home/collab/Documents/govtjobs/downloaded_pdfs'
+FILES_STORE = '/home/urmi/Documents/govtjobs/govtjobs/downloaded_pdfs'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

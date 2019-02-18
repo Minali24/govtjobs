@@ -20,8 +20,8 @@ class MyImagesPipeline(FilesPipeline):
             yield scrapy.Request(image_url)
 
     def item_completed(self, results, item, info):
-        path = '/home/collab/Documents/govtjobs/downloaded_pdfs/'
-        path_txt = '/home/collab/Documents/govtjobs/downloaded_text/'
+        path = '/home/urmi/Documents/govtjobs/govtjobs/downloaded_pdfs/'
+        path_txt = '/home/urmi/Documents/govtjobs/govtjobs/downloaded_text/'
         for x in results:
             if(x[0]):
                 raw = parser.from_file(path+x[1]['path'])
